@@ -1,0 +1,10 @@
+  @ <form> 태그
+        
+    입력 데이터를 서버로 보내기 위해 설정이 필요한 속성들 (모두 선택 사항임)
+    
+      action - 입력 데이터를 처리할 서버측 파일 경로 (URL)
+      method - 입력 데이터의 전송 방법 (HTTP 전송 방식)
+      nmae - 폼을 식별하기 위한 이름
+      target - 서ㅓ측 처리 결과를 실행할 프레임
+      enctype - 입력 데이터의 MIME 타입 (Multipurpose Internet Mail Extensions)
+      accept-charset - 입력 데이터의 문자 인코딩
