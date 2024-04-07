@@ -6,7 +6,7 @@
   <select>는 옵션 선택형이다.
   <button>은 버튼형이다.
 
-  @ <input> 태그
+  @ <input> 태그 - 싱글태그
     type 속성은 사용자 인터페이스 형식으로 필수적으로 들어가야한다. 나머지는 다 선택 사항이다.
     value 속성은 입력 값, 디폴트 값이다.
     name 속성은 입력 값을 서버 측에서 참조하기 위한 이름이다.
@@ -32,6 +32,18 @@
       <input type="date"> - 날짜를 입력 (value 속성이 지정되지 않을 경우, 현재 날짜가 디폴트)
       <input type="color"> - 색상을 16진수의 RGB 값의 형태로 입력
       <input type="hidden"> - 사용자의 개입 없이 미리 정의된 name과 value 속성을 서버로 전달, 별도의 UI는 제공되지 않음
+
+  @ Textarea 태그
+    여러 줄의 텍스트를 입력
+    rows와 cols 속성값을 이용해 크기 조정
+    <textarea></textarea> - 듀얼 태그
+
+  @ Select 태그
+    옵션 선택형, 드롭 다운 리스트 형태의 UI
+    내부에 <option> 태그를 이용해 옵션 정의
+    <select></select> - 듀얼 태그
+
+
 
 
 
